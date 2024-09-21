@@ -22,13 +22,13 @@ function Firstpage() {
           <TypingComponent/>
           <p>The image at the top is not my real image.</p>
           <span>
-              <a href="https://x.com/" target='_blank'>
+              <a href="https://x.com/_eZice?t=YsyZRZEhsjcbnkjollL2qw&s=09" target='_blank'>
                 <img src={twittericon} alt="X" />
               </a>
-              <a href="https://in.linkedin.com/" target='_blank'>
+              <a href="https://www.linkedin.com/in/ansh-varma-29197b228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank'>
                 <img src={linkdinicon} alt="github" />
               </a>
-              <a href="https://github.com/" target='_blank'>
+              <a href="https://github.com/esyice" target='_blank'>
                 <img src={githubicon} alt="linkdin" />
               </a>
 
