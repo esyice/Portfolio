@@ -1,0 +1,111 @@
+.contact{
+    display: flex;
+    justify-content: center;
+
+
+    form{
+        display: grid;
+        gap: 10px;
+        justify-content: space-between;
+        margin-top: 5vh;
+        padding: 10px;
+        text-align: center;
+
+        input{
+            border-radius: 16px;
+            width: 80vh;
+            height: 7vh;
+            border: 2px solid rgba(0, 0, 0, 0.534);
+            background: transparent;
+            padding: 5px;
+            color: aliceblue;
+            font-size: 1.3rem;
+        }
+        
+        input:active{
+            border: none;
+            background: transparent;
+        }
+
+        input::placeholder{
+            font-size: 1.3rem;
+            color: rgba(240, 248, 255, 0.712);
+            
+        }
+        
+        textarea{
+            font-size: 1.3rem;
+            color: aliceblue;
+            border: 2px solid rgba(0, 0, 0, 0.534);
+            border-radius: 16px;
+            padding: 5px;
+            background: transparent;
+            
+        }
+        textarea::placeholder{
+            font-size: 1.3rem;
+            color: rgba(240, 248, 255, 0.712);
+
+            
+        }
+
+        button{
+            margin-top: 5vh;
+            background-color: rgb(131, 127, 127);
+            border-radius: 24px;
+            border: none;
+            font-size: 2.5vh;
+            font-weight: 500;
+            width: 25vh;
+            height: 7vh;
+            text-align: center;
+        }
+    }
+}
+
+.heading{
+    text-align: center;
+}
+
+.headingbtm{
+    margin-top: 5vh;
+    background-color: rgb(131, 127, 127);
+    border-radius: 24px;
+    border: none;
+    font-size: 3vh;
+    font-weight: 500;
+    width: 25vh;
+    height: 7vh;
+    text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+
+    /* Your styles here */
+    .contact{
+        display: flex;
+        justify-content: center;
+    
+    
+        form{
+            display: grid;
+            gap: 10px;
+            justify-content: space-between;
+            margin-top: 5vh;
+            padding: 10px;
+            justify-content: center;
+            
+            input{
+                border: 2px solid rgba(0, 0, 0, 0.534);
+                border-radius: 24px;
+                width: 40vh;
+                height: 7vh;
+                padding: 5px;
+            }
+            input::placeholder{
+                color: rgba(240, 248, 255, 0.712);
+    
+            }
+        }
+    }
+}

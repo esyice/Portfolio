@@ -1,0 +1,67 @@
+.download{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.resumebtm{
+    
+    /* border: 2px solid crimson; */
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgba(126, 126, 126, 0.808);
+    border-radius: 25px;
+    align-items: center;
+    width: 20vh;
+    height: 10vh;
+    font-size: 3vh;
+    color: black;
+
+
+
+    /* button{
+        margin-top: 5vh;
+        border: none;
+    }  */
+}
+
+.info{
+    text-align: center;
+}
+.info h1{
+    font-size: 5vh;
+}
+.info p{
+    font-size: 3vh;
+}
+.imagecontainer{
+    text-align: center;
+}
+
+.profileImg{
+    filter: grayscale(50%);
+    width: 40vh;
+    height: 50vh;
+    border-bottom-left-radius: 25vh;
+    border-bottom-right-radius: 25vh;
+}
+
+
+@media screen and (max-width: 450px) {
+
+    /* Your styles here */
+    .profileImg{
+        filter: grayscale(50%);
+        width: 30vh;
+        height: 35vh;
+        border-bottom-left-radius: 25vh;
+        border-bottom-right-radius: 25vh;
+    }
+
+    .info h1{
+        font-size: 3vh;
+        font-weight: 300;
+    }
+}
